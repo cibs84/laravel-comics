@@ -18,5 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/products', function () {
+    $comics_array = config('comics');
+    dd($comics_array);
+
     return view('products');
 });
