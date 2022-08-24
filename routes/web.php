@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/products', function () {
+Route::get('/comics', function () {
     // $comics_array = config('comics');
     // dd($comics_array);
 
-    return view('products');
-})->name('products');
+    return view('comics');
+})->name('comics');

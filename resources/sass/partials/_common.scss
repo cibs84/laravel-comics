@@ -17,6 +17,10 @@ a {
 
 
 // COMMONS
+body {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: $almost_black;
+}
 .container {
     width: 65%;
     margin: 0 auto;
