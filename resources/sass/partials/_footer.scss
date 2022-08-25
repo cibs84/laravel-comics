@@ -1,0 +1,108 @@
+// FOOTER-TOP
+footer {
+    
+    .footer-top {
+        background-image: url("/img/footer-bg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: $brand_tertiary_color;
+        
+        .container {
+            background-image: url('/img/dc-logo-bg.png');
+            background-size: auto;
+            background-position: center right;
+            background-repeat: no-repeat;
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                width: 50%;
+                min-width: 40rem;
+                padding: 3rem 0;
+
+                .col {
+                margin-right: 2rem;
+                width: 6rem;
+                flex-shrink: 0;
+
+                    h2 {
+                        font-size: 1.1rem;    
+                        color: white;
+                        font-weight: 800;
+                        text-transform: uppercase;
+                        margin-bottom: 0.5rem;
+                    }
+                    ul {
+                        margin-bottom: 1rem;
+
+                        
+                    }
+                }
+                li:hover {
+                    color: $brand_primary_color;
+                }
+                li, p {
+                    font-size: 0.75rem;
+                    line-height: 1.2rem;
+                    font-weight: 600;
+                }
+                p {
+                    display: block;
+
+                    a {
+                        color: $brand_primary_color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// FOOTER-BOTTOM
+.footer-bottom {
+    padding: 2rem 0;
+    background-color: $brand_secondary_color;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .signup {
+            flex-grow: 1;
+    
+            button {
+                color: white;
+                text-transform: uppercase;
+                border: 2px solid $brand_primary_color;
+                background-color: transparent;
+                padding: 1rem;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+        }
+        nav {
+            display: flex;
+            align-items: center;
+
+            h2 {
+                color: $brand_primary_color;
+                text-transform: uppercase;
+            }
+
+            .main-menu {
+                display: flex;
+        
+                li {
+                    margin-left: 1rem;
+
+                    img {
+                        margin-top: 0.3rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
