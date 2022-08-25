@@ -8,6 +8,7 @@
     {{-- Main Banner --}}
     <section class="main-banner"></section>
 
+
     {{-- SECTION - Comics --}}
     <section class="comics-section">
         <div class="container">
@@ -34,6 +35,24 @@
 
             <!-- Load More Button -->
             <button class="load-more">Load More</button>
+        </div>
+    </section>
+
+
+    {{-- SECTION - Shop --}}
+    <section class=section-shop>
+        <div class=container>
+            <!-- Shop List -->
+            <ul>
+                @foreach ($shopListItems as $listItem)
+                    <li>
+                        <a href="{{$listItem['url']}}">
+                            <img src="{{$listItem['image']}}" />
+                            <span class=text>{{$listItem['text']}}</span>
+                        </a>
+                    </li> 
+                @endforeach
+            </ul>
         </div>
     </section>
 @endsection

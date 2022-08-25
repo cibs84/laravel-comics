@@ -136,6 +136,32 @@ header .main-menu li a.current {
   display: block;
 }
 
+.section-shop {
+  padding: 3rem 0;
+  background-color: #0282f9;
+}
+
+.section-shop ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-shop img {
+  vertical-align: middle;
+  height: 3rem;
+  max-width: 3.2rem;
+  margin-right: 1rem;
+}
+
+.section-shop .text {
+  vertical-align: middle;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
 footer .footer-top {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;
