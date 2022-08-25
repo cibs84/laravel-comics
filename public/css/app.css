@@ -32,20 +32,16 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 header .logo {
   width: 5rem;
   flex-shrink: 0;
 }
-
 header .main-menu {
   display: flex;
 }
-
 header .main-menu li {
   margin-left: 2rem;
 }
-
 header .main-menu li a {
   padding: 3rem 0;
   display: block;
@@ -53,7 +49,6 @@ header .main-menu li a {
   font-size: 0.85rem;
   font-weight: 700;
 }
-
 header .main-menu li a.current {
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
@@ -71,11 +66,9 @@ header .main-menu li a.current {
   padding: 3rem 0 1.2rem;
   background-color: #1c1c1c;
 }
-
 .comics-section .container {
   position: relative;
 }
-
 .comics-section .container .category-label {
   position: absolute;
   top: -4.7rem;
@@ -87,24 +80,20 @@ header .main-menu li a.current {
   font-size: 1.7rem;
   background-color: #0282f9;
 }
-
 .comics-section .container .comics-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .comics-section .container .col {
   width: 16.6666666667%;
   padding: 0 0.75rem;
 }
-
 .comics-section .container .col .comic-card {
   cursor: pointer;
   margin-bottom: 3rem;
   text-align: center;
 }
-
 .comics-section .container .col .comic-card img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -114,7 +103,6 @@ header .main-menu li a.current {
   margin-bottom: 1rem;
   width: 100%;
 }
-
 .comics-section .container .col .comic-card .series {
   color: white;
   font-size: 0.9rem;
@@ -122,7 +110,6 @@ header .main-menu li a.current {
   text-transform: uppercase;
   text-align: left;
 }
-
 .comics-section .container button {
   background-color: #0282f9;
   border: none;
@@ -140,20 +127,17 @@ header .main-menu li a.current {
   padding: 3rem 0;
   background-color: #0282f9;
 }
-
 .section-shop ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .section-shop img {
   vertical-align: middle;
   height: 3rem;
   max-width: 3.2rem;
   margin-right: 1rem;
 }
-
 .section-shop .text {
   vertical-align: middle;
   color: white;
@@ -163,20 +147,18 @@ header .main-menu li a.current {
 }
 
 footer .footer-top {
-  background-image: url("/img/footer-bg.jpg");
+  background-image: url("../img/footer-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #797979;
 }
-
 footer .footer-top .container {
-  background-image: url("/img/dc-logo-bg.png");
+  background-image: url("../img/dc-logo-bg.png");
   background-size: auto;
   background-position: center right;
   background-repeat: no-repeat;
 }
-
 footer .footer-top .container .row {
   display: flex;
   flex-wrap: wrap;
@@ -184,13 +166,11 @@ footer .footer-top .container .row {
   min-width: 40rem;
   padding: 3rem 0;
 }
-
 footer .footer-top .container .row .col {
   margin-right: 2rem;
   width: 6rem;
   flex-shrink: 0;
 }
-
 footer .footer-top .container .row .col h2 {
   font-size: 1.1rem;
   color: white;
@@ -198,26 +178,20 @@ footer .footer-top .container .row .col h2 {
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
-
 footer .footer-top .container .row .col ul {
   margin-bottom: 1rem;
 }
-
 footer .footer-top .container .row li:hover {
   color: #0282f9;
 }
-
-footer .footer-top .container .row li,
-footer .footer-top .container .row p {
+footer .footer-top .container .row li, footer .footer-top .container .row p {
   font-size: 0.75rem;
   line-height: 1.2rem;
   font-weight: 600;
 }
-
 footer .footer-top .container .row p {
   display: block;
 }
-
 footer .footer-top .container .row p a {
   color: #0282f9;
 }
@@ -226,17 +200,14 @@ footer .footer-top .container .row p a {
   padding: 2rem 0;
   background-color: #303030;
 }
-
 .footer-bottom .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .footer-bottom .container .signup {
   flex-grow: 1;
 }
-
 .footer-bottom .container .signup button {
   color: white;
   text-transform: uppercase;
@@ -246,27 +217,21 @@ footer .footer-top .container .row p a {
   font-size: 1rem;
   cursor: pointer;
 }
-
 .footer-bottom .container nav {
   display: flex;
   align-items: center;
 }
-
 .footer-bottom .container nav h2 {
   color: #0282f9;
   text-transform: uppercase;
 }
-
 .footer-bottom .container nav .main-menu {
   display: flex;
 }
-
 .footer-bottom .container nav .main-menu li {
   margin-left: 1rem;
 }
-
 .footer-bottom .container nav .main-menu li img {
   margin-top: 0.3rem;
   cursor: pointer;
 }
-

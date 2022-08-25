@@ -52,3 +52,20 @@ Route::get('/comics', function () {
 
     return view('comics', $data);
 })->name('comics');
+
+Route::get('/comic/{id}', function ($id) {
+    
+    $comics_array = config('comics');
+    $current_comic = [];
+
+    foreach($comics_array as $comic){
+        if ($comic['id'] == $id) {
+            $current_comic = $comic;
+        }
+    }
+
+    $data = [
+        'current_comic' => $current_comic
+    ];
+    return view('single_comic', $data);
+})->name('single_comic');

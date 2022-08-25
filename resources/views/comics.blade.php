@@ -17,17 +17,13 @@
 
             <!-- All Comics -->
             <div class="comics-list">
-                {{-- <comicCard 
-                    v-for="comic, index in comicsArray" 
-                    :key="index" 
-                    :comicDetails="comic"
-                /> --}}
                 @foreach ($comics_array as $comic)
-                    
                     <div class="col">
                         <div class="comic-card">
-                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
-                            <h3 class="series">{{ $comic['series'] }}</h3>
+                            <a href="{{ route('single_comic', ['id' => $comic['id']]) }}">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                                <h3 class="series">{{ $comic['series'] }}</h3>
+                            </a>
                         </div>
                     </div>
                 @endforeach

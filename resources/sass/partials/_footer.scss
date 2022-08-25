@@ -2,14 +2,14 @@
 footer {
     
     .footer-top {
-        background-image: url("/img/footer-bg.jpg");
+        background-image: url("../img/footer-bg.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         color: $brand_tertiary_color;
         
         .container {
-            background-image: url('/img/dc-logo-bg.png');
+            background-image: url('../img/dc-logo-bg.png');
             background-size: auto;
             background-position: center right;
             background-repeat: no-repeat;
