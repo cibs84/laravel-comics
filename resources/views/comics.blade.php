@@ -6,7 +6,7 @@
 
 @section('main_content')
     {{-- Main Banner --}}
-    <section class="main-banner"></section>
+    @include('components.main_banner')
 
 
     {{-- SECTION - Comics --}}

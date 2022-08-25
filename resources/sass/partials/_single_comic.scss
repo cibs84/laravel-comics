@@ -1,0 +1,172 @@
+.sub-banner {
+    height: 5rem;
+    background-color: $brand_primary_color;
+    position: relative;
+
+    // Comic Thumbnail
+    .comic-thumbnail {
+        width: 12rem;
+        border: 1px solid #fff;
+        position: absolute;
+        bottom: 1rem;
+        left: 22.5%;
+        text-align: center;
+    
+        img {
+            display: block;
+        }
+        .text {
+            background-color: #00a9d9;
+            color: white;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            
+            &.top {
+                padding: 0 0.6rem;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+// Single Comic Section
+.single-comic-section {
+    padding: 4rem 0 0;
+    font-family: sans-serif;
+    
+    .container-medium {
+
+        // Description and Advertisement
+        .desc-adv-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .desc-status {
+                width: 67%;
+
+                .comic-title {
+                    text-transform: uppercase;
+                    color: $heading_color;
+                    font-size: 1.8rem;
+                    margin-bottom: 1.4rem;
+                }
+                .bar-status {
+                    background-color: #55ba59;
+                    border-bottom: 1px solid #357739;
+                    color: #bafd9c;
+                    display: flex;
+                    font-weight: 500;
+                    margin-bottom: 1rem;
+    
+                    > div {
+                        padding: 0.2rem 1.3rem;
+                    }
+                    .left {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-grow: 1;
+                        
+                        .price {
+                            
+                            span {
+                                color: white;
+                            }
+                        }
+                        .availability {
+                            color: #bafd9c;
+                            text-transform: uppercase;
+                        }
+                    }
+                    .right {
+                        color: #fff;
+                        width: 28%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-left: 1px solid #357739;
+                        cursor: pointer;
+    
+                        .arrow {
+                            font-size: 1.8rem;
+                            transform: rotate(90deg);
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+                .description {
+                    font-size: 0.9rem;
+                    line-height: 1.4rem;
+                }
+            }
+            .advertisement {
+                
+                h4 {
+                    text-transform: uppercase;
+                    font-size: 0.9rem;
+                    text-align: right;
+                    margin-bottom: 0.2rem;
+                    font-family: 'Encode Sans Condensed';
+                }
+                img {
+
+                }
+            }
+        }
+
+    }
+    // Details
+    .comic-details {
+        background-color: #f6f6f6;
+        border-top: 1px solid gray;
+        padding: 1.5rem 0;
+        margin-top: 4rem;
+        
+        .container-medium {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5rem;
+
+            h2 {
+                color: $heading_color;
+                font-size: 1.2rem;
+                margin-bottom: 1.5rem;
+            }
+            > div {
+                width: calc(50% - 1.4rem);
+            }
+            .talent, .specs {
+
+                .col {
+
+                    > div {
+                        display: flex;
+                        justify-content: space-between;
+                        border-bottom: 1px solid gray;
+                        padding: 0.5rem 0;
+                        font-size: 0.8rem;
+
+                        .left {
+                            color: $heading_color;
+                        }
+                        .right {
+                            color: $brand_primary_color;
+                            width: 70%;
+                            
+                        }
+                    }
+                    .us-price .right, .sale_date .right {
+                        color: $almost_black;
+                    }
+                    &:first-of-type {
+                        border-top: 1px solid gray;
+                    }
+                }
+                 
+            }
+        }
+    }
+}
