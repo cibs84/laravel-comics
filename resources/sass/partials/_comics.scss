@@ -1,0 +1,62 @@
+.comics-section {
+    padding: 3rem 0 1.2rem;
+    background-color: $almost_black;
+
+    .container {
+        position: relative;
+
+        .category-label {
+            position: absolute;
+            top: -4.7rem;
+            left: 0;
+            padding: 0.6rem 2rem;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.7rem;
+            background-color: $brand_primary_color;
+        }
+        .comics-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .col {
+            width: calc(100% / 6);
+            padding: 0 0.75rem;
+        
+            .comic-card {
+                cursor: pointer;
+                margin-bottom: 3rem;
+                text-align: center;
+        
+                img {
+                    object-fit: cover;
+                    object-position: top center;
+                    max-height: 10rem;
+                    margin-bottom: 1rem;
+                    width: 100%;
+                }
+                .series {
+                    color: white;
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    text-align: left;
+                }
+            }
+        }
+        button {
+            background-color: $brand_primary_color;
+            border: none;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 0.7rem 3rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}

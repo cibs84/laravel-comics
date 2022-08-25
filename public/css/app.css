@@ -59,6 +59,83 @@ header .main-menu li a.current {
   border-bottom: 5px solid #0282f9;
 }
 
+.main-banner {
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 400px;
+}
+
+.comics-section {
+  padding: 3rem 0 1.2rem;
+  background-color: #1c1c1c;
+}
+
+.comics-section .container {
+  position: relative;
+}
+
+.comics-section .container .category-label {
+  position: absolute;
+  top: -4.7rem;
+  left: 0;
+  padding: 0.6rem 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.7rem;
+  background-color: #0282f9;
+}
+
+.comics-section .container .comics-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.comics-section .container .col {
+  width: 16.6666666667%;
+  padding: 0 0.75rem;
+}
+
+.comics-section .container .col .comic-card {
+  cursor: pointer;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.comics-section .container .col .comic-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+  max-height: 10rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.comics-section .container .col .comic-card .series {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.comics-section .container button {
+  background-color: #0282f9;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.7rem 3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
 footer .footer-top {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;
